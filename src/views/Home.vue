@@ -9,7 +9,7 @@ import axios from 'axios';
 
 const products = ref([]);
 const page = ref(1);
-const limit = ref(8);
+const limit = ref(12);
 const isLoading = ref(true);
 
 async function fetchData() {
